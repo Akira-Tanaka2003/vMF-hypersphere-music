@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "vMF Hypersphere Music Representation"
+authors:
+  - family-names: "Tanaka"
+    given-names: "Akira"
+year: 2026
+repository-code: "https://github.com/bintianzhong0-a11y/vMF-hypersphere-music"
+license: "MIT"
+abstract: "Research artifacts for visualizing musical harmony, chord quality, and root relationships as directions on a learned von Mises-Fisher hypersphere."

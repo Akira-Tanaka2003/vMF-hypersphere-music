@@ -1,0 +1,6 @@
+item,value,note
+mu_dimension,8,Original learned vMF direction dimension used in the visualization
+circle_of_fifths_vs_vmf_pearson,0.954,Correlation between circle-of-fifths distance and vMF angular distance
+circle_of_fifths_vs_vmf_spearman,0.953,Rank correlation between circle-of-fifths distance and vMF angular distance
+visualized_root_classes,12,C C# D Eb E F F# G Ab A Bb B
+visualized_chord_types,11,maj min dom7 maj7 min7 sus4 sus2 dim half_dim dim7 aug
