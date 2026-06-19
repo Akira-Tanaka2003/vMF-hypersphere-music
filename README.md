@@ -76,6 +76,14 @@ This figure shows chord-type distributions on the learned \(\mu\) hypersphere.
 
 This figure removes `other` and `no_chord` classes to make the chord-type structure easier to observe.
 
+## Additional Documents
+
+- [Evaluation criteria and comparison with prior work](docs/vmf_evaluation_comparison.pdf)  
+  Evaluation metrics, beginner-friendly explanations, and reference comparisons with related benchmarks and prior studies.
+
+- [Conformer-vMF variables, losses, and generation parameters](docs/conformer_vmf_tables.pdf)  
+  Input variables, prediction heads, loss functions, and generation-time control parameters used in the Conformer-vMF prototype.
+
 ## Method Summary
 
 The workflow is as follows:
