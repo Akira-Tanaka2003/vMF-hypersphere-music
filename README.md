@@ -10,7 +10,23 @@ In this project, musical events are represented as directional vectors on a lear
 The goal is to examine whether the learned direction parameter \(\mu\) reflects musically meaningful relationships such as chord-type similarity, inferred root structure, and circle-of-fifths proximity.
 
 本研究では、音楽的な状態を vMF 分布の方向パラメータ \(\mu\) として表現し、コード種別・推定 root・5度圏上の近接性が、学習された超球面上でどのように現れるかを分析します。
+## Generated Audio / 生成音源
 
+A generated audio sample from the Conformer-vMF prototype is available for listening, together with spectrogram and chromagram visualizations.  
+Conformer-vMF プロトタイプによる生成音源を、スペクトログラムおよびクロマ図とともに掲載しています。
+
+<audio controls src="audio/vMF_generated_sample.mp3"></audio>
+
+- [Listen to generated audio / 生成音源を開く](audio/vMF_generated_sample.mp3)
+- [Generated audio showcase / 生成音源の試聴と可視化](docs/generated_audio_showcase.md)
+
+### Spectrogram / スペクトログラム
+
+![Generated audio spectrogram](figures/vMF_generated_spectrogram.png)
+
+### Chromagram / クロマ図
+
+![Generated audio chromagram](figures/vMF_generated_chromagram.png)
 ## Key Findings
 
 - Learned \(\mu\) vectors form interpretable structures on the hypersphere.
