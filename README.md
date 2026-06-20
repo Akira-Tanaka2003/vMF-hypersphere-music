@@ -186,6 +186,45 @@ This document describes the vMF coordinate construction, harmonic center directi
 - [Method summary Japanese version](docs/method_summary_ja.md)  
   日本語版の手法概要です。vMF 座標、和声中心方向、学習時の損失関数、生成時の pitch / velocity / timing 数式を整理しています。
 
+## Method Details / 手法詳細
+
+Detailed pages from the black-and-white LaTeX Method Summary are provided below as PNG images.  
+白黒LaTeX版の Method Summary を、README で見やすい PNG 画像として掲載しています。
+
+- [Full PDF version / PDF版](docs/conformer_vmf_method_summary_bw.pdf)
+
+<details>
+<summary>Open Method Details pages / Method Details の各ページを開く</summary>
+
+### Page 1
+![Method Details page 1](figures/method_details_page_1.png)
+
+### Page 2
+![Method Details page 2](figures/method_details_page_2.png)
+
+### Page 3
+![Method Details page 3](figures/method_details_page_3.png)
+
+### Page 4
+![Method Details page 4](figures/method_details_page_4.png)
+
+### Page 5
+![Method Details page 5](figures/method_details_page_5.png)
+
+### Page 6
+![Method Details page 6](figures/method_details_page_6.png)
+
+### Page 7
+![Method Details page 7](figures/method_details_page_7.png)
+
+### Page 8
+![Method Details page 8](figures/method_details_page_8.png)
+
+### Page 9
+![Method Details page 9](figures/method_details_page_9.png)
+
+</details>
+
 ## Repository Structure
 
 ```text
