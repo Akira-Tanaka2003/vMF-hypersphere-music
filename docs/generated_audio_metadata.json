@@ -1,0 +1,12 @@
+{
+  "audio_file": "audio/vMF_generated_sample.mp3",
+  "sample_rate_hz": 48000,
+  "duration_sec": 21.384,
+  "channels_for_analysis": "mono",
+  "spectrogram": "figures/vMF_generated_spectrogram.png",
+  "chromagram": "figures/vMF_generated_chromagram.png",
+  "waveform": "figures/vMF_generated_waveform.png",
+  "chroma_method": "CQT chroma",
+  "n_fft": 2048,
+  "hop_length": 512
+}
