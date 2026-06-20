@@ -51,57 +51,85 @@ The circle-of-fifths distance and vMF angular distance showed a high correlation
 These results suggest that the learned vMF `μ`-space may partially encode music-theoretical proximity.
 これらの結果は、学習された vMF `μ` 空間が、音楽理論上の近接性を部分的に符号化している可能性を示している。
 
+## Main Visualizations / 主な可視化結果
 
-## Main Visualizations
-
-### Circle-of-fifths distance vs vMF angular distance
+### Circle-of-fifths distance vs vMF angular distance / 5度圏距離と vMF 角距離
 
 ![Circle-of-fifths distance vs vMF angular distance](figures/vMF_fifth_map.png)
 
-This figure compares the distance between inferred root classes on the circle of fifths with their angular distance on the learned vMF hypersphere.  
-The strong positive correlation suggests that the learned \(\mu\)-space captures part of the tonal structure.
+This figure compares the distance between inferred root classes on the circle of fifths with their angular distance on the learned vMF hypersphere.
+この図は、推定された root クラス間の 5度圏上の距離と、学習された vMF 超球面上での角距離を比較したものです。
 
-### Chord-type angular distance
+The strong positive correlation suggests that the learned `μ`-space captures part of the tonal structure.
+強い正の相関が見られることから、学習された `μ` 空間が、調性構造の一部を捉えている可能性が示唆されます。
+
+### Chord-type angular distance / コード種別間の角距離
 
 ![Angular distance between chord-type centers](figures/vMF_heat2_map.png)
 
-This heatmap shows angular distances between chord-type centers on the learned vMF \(\mu\) hypersphere.
+This heatmap shows angular distances between chord-type centers on the learned vMF `μ` hypersphere.
+このヒートマップは、学習された vMF `μ` 超球面上におけるコード種別中心間の角距離を示しています。
 
-### Chord-type cosine similarity
+A smaller angular distance means that two chord types are represented as closer directions in the learned hyperspherical space.
+角距離が小さいほど、2つのコード種別が学習空間内で近い方向として表現されていることを意味します。
+
+### Chord-type cosine similarity / コード種別間の cos 類似度
 
 ![Cosine similarity between chord-type centers](figures/vMF_heat_map.png)
 
 This heatmap shows cosine similarities between chord-type centers. Higher values indicate closer directional alignment in the learned hyperspherical space.
+このヒートマップは、コード種別中心間の cos 類似度を示しています。値が大きいほど、学習された超球面空間内で方向が近く、類似した表現になっていることを表します。
 
-### Inferred root angular distance
+### Inferred root angular distance / 推定 root 間の角距離
 
 ![vMF angular distance between inferred root centers](figures/vMF_root_inf_dist.png)
 
 This heatmap visualizes angular distances between inferred root centers.
+このヒートマップは、推定された root 中心同士の角距離を可視化したものです。
 
-### Root classes on the learned hypersphere
+It helps examine whether the learned root representations reflect harmonic relationships such as the circle of fifths.
+これにより、学習された root 表現が、5度圏のような和声的関係を反映しているかを確認できます。
+
+### Root classes on the learned hypersphere / 学習された超球面上の root クラス
 
 ![Root 12 classes on learned mu hypersphere](figures/vMF_root_map.png)
 
 The 12 inferred root classes are projected onto a 3D PCA sphere for visualization.
+12 種類の推定 root クラスを、可視化のために 3 次元 PCA 空間へ射影しています。
 
-### Learned \(\mu\) hypersphere
+This figure provides an intuitive view of how root categories are arranged in the learned vMF representation space.
+この図により、学習された vMF 表現空間内で root カテゴリがどのように配置されているかを直感的に確認できます。
+
+### Learned `μ` hypersphere / 学習された `μ` 超球面
 
 ![Learned mu hypersphere visualization](figures/vMF_mu_map.png)
 
-This figure visualizes the learned \(\mu\) directions. Points are colored by concentration parameter \(\kappa\).
+This figure visualizes the learned `μ` directions. Points are colored by concentration parameter `κ`.
+この図は、学習された `μ` 方向を可視化したものです。各点の色は集中度パラメータ `κ` を表しています。
 
-### Chord types on the learned hypersphere
+The visualization shows how musical states are distributed on the learned hyperspherical representation.
+この可視化により、音楽的状態が学習済みの超球面表現上にどのように分布しているかを確認できます。
+
+### Chord types on the learned hypersphere / 学習された超球面上のコード種別
 
 ![Chord types on learned mu hypersphere](figures/vMF_chord1_map.png)
 
-This figure shows chord-type distributions on the learned \(\mu\) hypersphere.
+This figure shows chord-type distributions on the learned `μ` hypersphere.
+この図は、学習された `μ` 超球面上におけるコード種別の分布を示しています。
 
-### Filtered chord-type visualization
+It helps examine whether different chord types form separable or structured regions in the learned space.
+これにより、異なるコード種別が学習空間内で分離可能な領域や構造を形成しているかを確認できます。
+
+### Filtered chord-type visualization / フィルタ後のコード種別可視化
 
 ![Filtered chord types on learned mu hypersphere](figures/vMF_chord2_map.png)
 
 This figure removes `other` and `no_chord` classes to make the chord-type structure easier to observe.
+この図では、コード種別の構造を観察しやすくするために、`other` と `no_chord` クラスを除外しています。
+
+By filtering out less informative classes, the relationships among musically meaningful chord types become clearer.
+情報量の少ないクラスを除外することで、音楽的に意味のあるコード種別同士の関係がより見やすくなります。
+
 
 ## Additional Documents
 
