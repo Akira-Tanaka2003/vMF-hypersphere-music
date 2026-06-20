@@ -27,19 +27,30 @@ Conformer-vMF プロトタイプによる生成音源を、スペクトログラ
 ### Chromagram / クロマ図
 
 ![Generated audio chromagram](figures/vMF_generated_chromagram.png)
-## Key Findings
 
-- Learned \(\mu\) vectors form interpretable structures on the hypersphere.
-- Chord-type centers show meaningful angular relationships.
-- Inferred root centers show a strong correspondence with circle-of-fifths distance.
-- The circle-of-fifths distance and vMF angular distance showed a high correlation:
+## Key Findings / 主な発見
 
-```text
-Pearson correlation  = 0.954
-Spearman correlation = 0.953
-```
+Learned `μ` vectors form interpretable structures on the hypersphere.
+学習された `μ` ベクトルは、超球面上で解釈可能な構造を形成している。
 
-These results suggest that the learned vMF \(\mu\)-space may partially encode music-theoretical proximity.
+Chord-type centers show meaningful angular relationships.
+コード種別ごとの中心方向には、意味のある角度関係が見られた。
+
+Inferred root centers show a strong correspondence with circle-of-fifths distance.
+推定された root 中心は、5度圏距離と強い対応関係を示した。
+
+The circle-of-fifths distance and vMF angular distance showed a high correlation.
+5度圏距離と vMF 空間上の角距離は、高い相関を示した。
+
+* Pearson correlation = `0.954`
+  Pearson 相関係数 = `0.954`
+
+* Spearman correlation = `0.953`
+  Spearman 相関係数 = `0.953`
+
+These results suggest that the learned vMF `μ`-space may partially encode music-theoretical proximity.
+これらの結果は、学習された vMF `μ` 空間が、音楽理論上の近接性を部分的に符号化している可能性を示している。
+
 
 ## Main Visualizations
 
