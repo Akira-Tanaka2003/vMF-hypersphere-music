@@ -1,8 +1,7 @@
+torch
 numpy
 pandas
-matplotlib
-scikit-learn
-plotly
-torch
-scipy
+pretty_midi
+mido
 tqdm
+scikit-learn
