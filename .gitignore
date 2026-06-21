@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# datasets and checkpoints
+data/
+*.pt
+*.pth
+*.ckpt
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+
+# generated outputs
+results/generated/*.mid
+results/generated/*.json
+results/generated/*.zip
+
+# local
+.env
+.DS_Store
