@@ -4,7 +4,7 @@ This repository contains experimental artifacts for visualizing musical harmony 
 
 本リポジトリは、音楽に含まれるコード種別・root・5度圏距離・和声中心を、vMF 分布の方向ベクトルとして扱い、学習された超球面上の構造を可視化・分析・演奏生成するための研究成果物です。
 
-Overview
+## Overview
 
 In this project, musical events are represented as directional vectors on a vMF hypersphere.
 The learned direction parameter $\mu$ is used to analyze and model musically meaningful relationships such as chord-type similarity, inferred root structure, pitch-class organization, and circle-of-fifths proximity.
@@ -21,9 +21,7 @@ This prevents autoregressive generation from collapsing into overly repetitive t
 The final generation pipeline produces full-arrangement MIDI files containing melody, chord comping, bass, arpeggio, and pad tracks.
 The aim of this project is to examine whether vMF hypersphere representations can serve both as an interpretable musical structure space and as a practical control mechanism for symbolic music generation.
 
-⸻
-
-概要
+## 概要
 
 本研究では、音楽的なイベントを vMF 超球面上の方向ベクトルとして表現します。
 学習された方向パラメータ $\mu$ を用いて、コード種別の類似性、推定 root 構造、音高クラスの配置、5度圏上の近接性といった音楽的関係を分析・モデル化します。
