@@ -313,11 +313,11 @@ If you use or refer to this repository, please cite it as:
 }
 ```
 
-再現方法：Conformer-vMF によるフルアレンジ生成
+## 再現方法：Conformer-vMF によるフルアレンジ生成
 
 本リポジトリでは、vMF 超球面音楽表現と Conformer による block-level harmonic function transition model を用いて、フルアレンジ MIDI を生成する再現用パイプラインを公開しています。
 
-##本命設定は quota_empirical preset です。
+本命設定は quota_empirical preset です。
 
 1. リポジトリを clone する
 
