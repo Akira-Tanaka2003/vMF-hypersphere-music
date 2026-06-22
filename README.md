@@ -321,12 +321,16 @@ If you use or refer to this repository, please cite it as:
 
 1. リポジトリを clone する
 
+```bash
 git clone https://github.com/bintianzhong0-a11y/vMF-hypersphere-music.git
 cd vMF-hypersphere-music
+```
 
 2. 依存ライブラリをインストールする
 
+```bash
 pip install -r requirements.txt
+```
 
 3. 学習済み checkpoint をダウンロードする
 
@@ -347,6 +351,7 @@ checkpoints/vmf_conformer_block_transition_pop1k7_1000_finetune_from_head_best.p
 
 以下のコマンドを実行します。
 
+```bash
 python scripts/generate_vmf_full_arrangement_conformer_block.py \
   --checkpoint checkpoints/vmf_conformer_block_transition_pop1k7_1000_finetune_from_head_best.pt \
   --out_midi results/generated/vmf_full_arrangement_quota_empirical_seed5.mid \
@@ -356,6 +361,7 @@ python scripts/generate_vmf_full_arrangement_conformer_block.py \
   --steps_per_block 8 \
   --tempo 120 \
   --seed 5
+```
 
 このコマンドにより、以下のトラックを含むフルアレンジ MIDI が生成されます。
 
@@ -367,6 +373,7 @@ python scripts/generate_vmf_full_arrangement_conformer_block.py \
 
 5. 複数 seed で生成する
 
+```bash
 for seed in 1 2 3 4 5
 do
   python scripts/generate_vmf_full_arrangement_conformer_block.py \
@@ -379,6 +386,7 @@ do
     --tempo 120 \
     --seed ${seed}
 done
+```
 
 生成時の target function 分布
 
