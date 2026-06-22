@@ -2,7 +2,7 @@
 
 This repository contains experimental artifacts for visualizing musical harmony and performance-related representations on a von Mises–Fisher (vMF) hypersphere.
 
-本リポジトリは、音楽に含まれるコード種別・root・5度圏距離・和声中心を、vMF 分布の方向ベクトルとして扱い、学習された超球面上の構造を可視化・分析するための研究成果物です。
+本リポジトリは、音楽に含まれるコード種別・root・5度圏距離・和声中心を、vMF 分布の方向ベクトルとして扱い、学習された超球面上の構造を可視化・分析・演奏生成するための研究成果物です。
 
 ## Overview
 
