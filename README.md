@@ -38,6 +38,23 @@ The aim of this project is to examine whether vMF hypersphere representations ca
 最終的な生成パイプラインでは、melody、chord comping、bass、arpeggio、pad の各トラックを含む full-arrangement MIDI を出力します。
 本研究の目的は、vMF 超球面表現が、解釈可能な音楽構造空間として機能するだけでなく、記号音楽生成における実用的な制御表現としても利用できるかを検証することです。
 
+## Music Theory Formulation Summary
+
+This repository also includes a PDF summary of the music-theory-based formulations used in this project.
+
+The document explains how pitch class, circle-of-fifths coordinates, fifth-distance, chord templates, harmonic functions, vMF direction parameters, and quota-aware decoding are connected to the proposed Conformer-vMF generation pipeline.
+
+* Music Theory Formulation Summary PDF
+
+
+日本語説明
+
+本リポジトリには、本研究で用いる音楽理論由来の立式をまとめた PDF も含めています。
+
+この資料では、pitch class、5度圏座標、5度圏距離、コードテンプレート、和声機能、vMF の方向パラメータ、quota-aware decoding が、Conformer-vMF による生成パイプラインとどのように接続されるかを整理しています。
+
+* 音楽理論からくる立式まとめ PDF
+
 ## Generated Audio / 生成音源
 
 A generated audio sample from the Conformer-vMF prototype is available for listening, together with spectrogram and chromagram visualizations.  
