@@ -44,8 +44,7 @@ This repository also includes a PDF summary of the music-theory-based formulatio
 
 The document explains how pitch class, circle-of-fifths coordinates, fifth-distance, chord templates, harmonic functions, vMF direction parameters, and quota-aware decoding are connected to the proposed Conformer-vMF generation pipeline.
 
-* Music Theory Formulation Summary PDF
-
+* [Music Theory Formulation Summary PDF](docs/music_theory_formulation_summary_vmf.pdf)  
 
 日本語説明
 
