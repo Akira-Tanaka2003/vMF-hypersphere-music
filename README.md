@@ -1,4 +1,4 @@
-[README_git_summary_combined_snippet.md](https://github.com/user-attachments/files/29276604/README_git_summary_combined_snippet.md)# vMF Hypersphere Music Representation
+# vMF Hypersphere Music Representation
 
 This repository contains experimental artifacts for visualizing musical harmony and performance-related representations on a von Mises–Fisher (vMF) hypersphere.
 
