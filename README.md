@@ -158,6 +158,25 @@ val_macro_f1 = 0.808
 | conformer凍結      |    15 |    0.5812 |         0.4535 |  0.5874 |       0.4596 |   0.9893 |
 | 四層conformer |    10 |    0.8084 |         0.7804 |  0.8320 |       0.8077 |   0.4359 |
 
+### その他の補助的成果
+
+#### vMF Conformer：root・コード・拍節などの推定結果
+
+| 実験                 | 対象            |       指標 |         結果 | 解釈                   |
+| ------------------ | ------------- | -------: | ---------: | -------------------- |
+| vMF Conformer v4.7 | Root推定        |      Acc | **0.8536** | root 12分類はかなり高水準     |
+| vMF Conformer v4.7 | Root推定        | Macro-F1 | **0.8522** | クラス偏り込みでも安定          |
+| vMF Conformer v4.7 | Chord Quality |      Acc | **0.7248** | コード種別は中程度以上          |
+| vMF Conformer v4.7 | Chord Quality | Macro-F1 | **0.3591** | 少数コード種別で難しさあり        |
+| vMF Conformer v4.7 | chord-like 2値 |      Acc | **0.9416** | コードらしさ判定はかなり強い       |
+| vMF Conformer v4.7 | chord-like 2値 | Macro-F1 | **0.8556** | 非コード/コードの分離も良好       |
+| vMF Conformer v4.7 | Onset         |      Acc | **0.5725** | onsetはまだ改善余地あり       |
+| vMF Conformer v4.7 | Chroma        |      Acc | **0.9199** | 音高集合の再構成は強い          |
+| vMF Conformer v4.7 | Velocity      |      MAE |  **8.942** | velocity生成誤差は実用範囲に近い |
+| vMF Conformer v4.7 | vMF方向一致       |  cos sim |  **0.772** | 方向表現はかなり学習できている      |
+| vMF Conformer v4.7 | Template 12分類 |      Acc | **0.3599** | 細かいコードテンプレート分類は難しい   |
+
+
 
 ## Main Visualizations / 主な可視化結果
 
