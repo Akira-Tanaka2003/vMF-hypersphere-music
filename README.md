@@ -26,15 +26,12 @@ The aim of this project is to examine whether vMF hypersphere representations ca
 本研究では、音楽的なイベントを vMF 超球面上の方向ベクトルとして表現します。
 学習された方向パラメータ $\mu$ を用いて、コード種別の類似性、推定 root 構造、音高クラスの配置、5度圏上の近接性といった音楽的関係を分析・モデル化します。
 
-$$ 
+$$
+\qquad
 p(e \mid \mu, \kappa)=
 C_D(\kappa)\exp\left(\kappa \mu^{\top} e\right)
-,
-$$
-
-$$ 
-\mu_t \in \mathbb{R}^{10},
-\|\mu_t\| = 1
+\qquad (\|\mu_t\| = 1, \mu_t \in \mathbb{R}^{10})
+\qquad
 $$
 
 
