@@ -126,26 +126,27 @@ Inferred root centers show a strong correspondence with circle-of-fifths distanc
 The circle-of-fifths distance and vMF angular distance showed a high correlation.
 
 ### Block Transition 実験条件
-| 項目                     | 設定                                   |
-| ---------------------- | ------------------------------------ |
-| データ                    | Pop1K7由来 `vmf_processed_pop1k7_1000` |
-| 入力次元                   | `input_dim=10`                       |
-| vMF方向次元                | `mu_dim=10`                          |
-| root分類数                | 12                                   |
-| template分類数            | 9                                    |
-| triad分類数               | 6                                    |
-| seventh分類数             | 6                                    |
-| function分類数            | 4                                    |
-| function transition分類数 | 16                                   |
-| 対象ラベル                  | T / D / SD / OTHER                   |
-| events per block       | 8                                    |
-| num blocks             | 16                                   |
-| block stride           | 4                                    |
-| phrase period          | 4                                    |
-| min blocks             | 8                                    |
-| batch size             | 16                                   |
-| validation ratio       | 0.1                                  |
-| seed                   | 42                                   |
+| 英語項目                                  | 日本語項目          | 内容                                   |
+| ------------------------------------- | -------------- | ------------------------------------ |
+| Data                                  | 使用データ          | Pop1K7由来 `vmf_processed_pop1k7_1000` |
+| Input dimension                       | 入力次元           | `input_dim=10`                       |
+| vMF direction dimension               | vMF方向ベクトル次元    | `mu_dim=10`                          |
+| Number of root classes                | ルート音分類数        | 12                                   |
+| Number of template classes            | コードテンプレート分類数   | 9                                    |
+| Number of triad classes               | 三和音分類数         | 6                                    |
+| Number of seventh classes             | セブンス分類数        | 6                                    |
+| Number of function classes            | 和声機能分類数        | 4                                    |
+| Number of function transition classes | 和声機能遷移分類数      | 16                                   |
+| Target labels                         | 推定対象ラベル        | T / D / SD / OTHER                   |
+| Events per block                      | 1ブロックあたりのイベント数 | 8                                    |
+| Number of blocks                      | 使用ブロック数        | 16                                   |
+| Block stride                          | ブロックの移動幅       | 4                                    |
+| Phrase period                         | フレーズ周期         | 4                                    |
+| Minimum blocks                        | 最小ブロック数        | 8                                    |
+| Batch size                            | バッチサイズ         | 16                                   |
+| Validation ratio                      | 検証データ割合        | 0.1                                  |
+| Seed                                  | 乱数シード          | 42                                   |
+
 
 
 ### 5度圏距離と vMF 空間上の角距離は、高い相関
