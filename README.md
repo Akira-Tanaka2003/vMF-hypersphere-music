@@ -111,7 +111,7 @@ The circle-of-fifths distance and vMF angular distance showed a high correlation
 ### 5度圏距離と vMF 空間上の角距離は、高い相関
 
 * Pearson correlation = `0.954`
-  Pearson 相関係数 = `0.954`
+　Pearson 相関係数 = `0.954`
 
 * Spearman correlation = `0.953`
   Spearman 相関係数 = `0.953`
