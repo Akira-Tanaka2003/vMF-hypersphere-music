@@ -195,6 +195,7 @@ val_macro_f1 = 0.808
 
 
 ### その他の補助的成果
+<details>
 
 #### vMF Conformer：root・コード・拍節などの推定結果
 
@@ -212,7 +213,7 @@ val_macro_f1 = 0.808
 | vMF Conformer v4.7 | vMF方向一致       |  cos sim |  **0.772** | 方向表現はかなり学習できている      |
 | vMF Conformer v4.7 | Template 12分類 |      Acc | **0.3599** | 細かいコードテンプレート分類は難しい   |
 
-
+</details>
 
 ## Main Visualizations / 主な可視化結果
 
