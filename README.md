@@ -82,8 +82,18 @@ This experiment evaluates whether Conformer-vMF can predict block-level harmonic
 The processed dataset contains 1000 distinct MIDI files and approximately 1.43 million note events.  
 処理済みデータセットは、1000個の異なる MIDI ファイルと約143万イベントから構成されています。
 
-After head training and fine-tuning, the validation performance reached `val_acc = 0.832` and `val_macro_f1 = 0.808`.  
-head 学習と fine-tuning の後、検証性能は `val_acc = 0.832`、`val_macro_f1 = 0.808` に到達しました。
+After head training and fine-tuning, the validation performance reached
+```text
+val_acc = 0.832
+val_macro_f1 = 0.808
+```
+
+head 学習と fine-tuning の後、検証性能は 
+```text
+val_acc = 0.832
+val_macro_f1 = 0.808
+```
+に到達しました。
 
 - [Pop1K7 1000 Conformer-vMF block transition experiment](docs/pop1k7_block_transition_experiment.md)
 ading README_git_summary_combined_snippet.md…]()
