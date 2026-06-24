@@ -30,7 +30,7 @@ $$
 \qquad
 p(e \mid \mu, \kappa)=
 C_D(\kappa)\exp\left(\kappa \mu^{\top} e\right)
-\qquad (\|\mu_t\| = 1, \mu_t \in \mathbb{R}^{10})
+\qquad \(||\mu_t||=1,\ \mu_t \in ℝ^{10}\)
 \qquad
 $$
 
