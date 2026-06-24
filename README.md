@@ -127,6 +127,7 @@ The circle-of-fifths distance and vMF angular distance showed a high correlation
 
 ### Block Transition 実験条件
 <details>
+
 | 英語項目                                  | 日本語項目          | 内容                                   |
 | ------------------------------------- | -------------- | ------------------------------------ |
 | Data                                  | 使用データ          | Pop1K7由来 `vmf_processed_pop1k7_1000` |
@@ -147,8 +148,8 @@ The circle-of-fifths distance and vMF angular distance showed a high correlation
 | Batch size                            | バッチサイズ         | 16                                   |
 | Validation ratio                      | 検証データ割合        | 0.1                                  |
 | Seed                                  | 乱数シード          | 42                                   |
-</details>
 
+</details>
 
 ### 5度圏距離と vMF 空間上の角距離は、高い相関
 
