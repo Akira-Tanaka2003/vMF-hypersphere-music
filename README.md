@@ -125,6 +125,29 @@ Inferred root centers show a strong correspondence with circle-of-fifths distanc
 
 The circle-of-fifths distance and vMF angular distance showed a high correlation.
 
+### Block Transition 実験条件
+| 項目                     | 設定                                   |
+| ---------------------- | ------------------------------------ |
+| データ                    | Pop1K7由来 `vmf_processed_pop1k7_1000` |
+| 入力次元                   | `input_dim=10`                       |
+| vMF方向次元                | `mu_dim=10`                          |
+| root分類数                | 12                                   |
+| template分類数            | 9                                    |
+| triad分類数               | 6                                    |
+| seventh分類数             | 6                                    |
+| function分類数            | 4                                    |
+| function transition分類数 | 16                                   |
+| 対象ラベル                  | T / D / SD / OTHER                   |
+| events per block       | 8                                    |
+| num blocks             | 16                                   |
+| block stride           | 4                                    |
+| phrase period          | 4                                    |
+| min blocks             | 8                                    |
+| batch size             | 16                                   |
+| validation ratio       | 0.1                                  |
+| seed                   | 42                                   |
+
+
 ### 5度圏距離と vMF 空間上の角距離は、高い相関
 
 * Pearson correlation = `0.954`
@@ -145,8 +168,17 @@ This experiment evaluates whether Conformer-vMF can predict block-level harmonic
 The processed dataset contains 1000 distinct MIDI files and approximately 1.43 million note events.  
 処理済みデータセットは、1000個の異なる MIDI ファイルと約143万イベントから構成されています。
 
-After head training and fine-tuning, the validation performance reached
+#### validation set の正解クラス分布
+| クラス   |     件数 |      割合 |
+| ----- | -----: | ------: |
+| T     | 28,612 |  46.29% |
+| D     |  8,509 |  13.77% |
+| SD    | 11,968 |  19.36% |
+| OTHER | 12,726 |  20.59% |
+| 合計    | 61,815 | 100.00% |
 
+
+After head training and fine-tuning, the validation performance reached
 head 学習と fine-tuning の後、検証性能は
 ```text
 val_acc = 0.832
@@ -157,6 +189,7 @@ val_macro_f1 = 0.808
 | ----------- | ----: | --------: | -------------: | ------: | -----------: | -------: |
 | conformer凍結      |    15 |    0.5812 |         0.4535 |  0.5874 |       0.4596 |   0.9893 |
 | 四層conformer |    10 |    0.8084 |         0.7804 |  0.8320 |       0.8077 |   0.4359 |
+
 
 ### その他の補助的成果
 
