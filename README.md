@@ -78,7 +78,7 @@ The document explains how pitch class, circle-of-fifths coordinates, fifth-dista
 A generated audio sample from the Conformer-vMF prototype is available for listening, together with spectrogram and chromagram visualizations.  
 Conformer-vMF プロトタイプによる生成音源を、スペクトログラムおよびクロマ図とともに掲載しています。
 
-[Uplo## Differentiation from Other Generation Systems / 他の生成システムとの差別化
+## Differentiation from Other Generation Systems / 他の生成システムとの差別化
 
 This project does not primarily aim to compete with large-scale music generation systems in final audio quality.  
 本研究は、大規模音楽生成AIと最終的な音質で直接競争することを主目的としていません。
