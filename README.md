@@ -193,6 +193,7 @@ For `seventh`, the first principal component is more strongly related to pitch-t
 
 ![Template sphere with music labels](figures/chord_center_visualizations/pop1k7_1000_template_sphere_music_labels.png)
 
+![Template sphere with music labels](figures/chord_center_visualizations/pop1k7_1000_triad_circle_music_labels.png)
 #### Template angular distance / template 角距離
 
 ![Template angular distance heatmap](figures/chord_center_visualizations/pop1k7_1000_template_angular_distance_heatmap_music_labels.png)
