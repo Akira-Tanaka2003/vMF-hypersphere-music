@@ -59,6 +59,36 @@ $$
 
 特に、5度圏上で近い音や和声は、vMF空間上でも近い方向として扱えるため、単なる離散的なコードラベルではなく、角度に基づく連続的な和声近接性を生成に反映できる。  
 その結果、現在の和声・音高・拍節文脈に対して自然で親和性の高い響きを生成できる可能性がある。
+<details>
+
+$$
+\[
+\mathrm{score}_t(p)
+=
+w_{\mathrm{vMF}} e_p^{\top}\mu_t
++
+w_{\mathrm{chord}}
+\mathbf{1}
+\left[
+p \bmod 12 \in \mathcal{C}_t
+\right]
++
+w_{\mathrm{motion}}
+\mathbf{1}
+\left[
+|p-p_{t-1}| \leq s
+\right]
++
+w_{\mathrm{range}}
+\mathbf{1}
+\left[
+p_{\min} \leq p \leq p_{\max}
+\right]-
+P_t(p)
+\]
+$$
+
+</details>
 
 最終的な生成パイプラインでは、melody、chord comping、bass、arpeggio、pad の各トラックを含む full-arrangement MIDI を出力します。
 本研究の目的は、vMF 超球面表現が、解釈可能な音楽構造空間として機能するだけでなく、記号音楽生成における実用的な制御表現としても利用できるかを検証することです。
